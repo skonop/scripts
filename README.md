@@ -1,16 +1,33 @@
 # Some public scripts
 
-To be run with curl
-```sh
-curl -s https://raw.githubusercontent.com/skonop/scripts/main/hello.sh |sh
-```
-
-or wget
-
-```sh
-wget -qO- https://raw.githubusercontent.com/skonop/scripts/main/hello.sh |sh
-```
-
 ## hello.sh
 
 Does nothing, allows to test if a script can be run from a local machine.
+
+```sh
+curl -s https://raw.githubusercontent.com/skonop/scripts/main/hello.sh | sh
+```
+
+```sh
+wget -qO- https://raw.githubusercontent.com/skonop/scripts/main/hello.sh | sh
+```
+
+## init-ux.sh (wip)
+
+Initiates public part of init script on `mac` or `linux` (including `wsl`).
+source: https://github.com/twpayne/chezmoi/blob/master/docs/INSTALL.md
+
+Run in terminal:
+```sh
+curl -s https://raw.githubusercontent.com/skonop/scripts/main/init-ux.sh | sh
+```
+
+## init-win.sh (wip)
+
+Initiates public part of init script on `windows`
+source: https://github.com/twpayne/chezmoi/blob/master/docs/INSTALL.md
+
+Run in Powershell:
+```powershell
+(iwr https://raw.githubusercontent.com/skonop/scripts/main/init-win.ps1).Content | powershell -c -
+```
