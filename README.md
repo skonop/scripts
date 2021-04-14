@@ -15,17 +15,19 @@ wget -qO- https://raw.githubusercontent.com/skonop/scripts/main/hello.sh | sh
 ## init-ux.sh (wip)
 
 Initiates public part of init script on `mac` or `linux` (including `wsl`).
-source: https://github.com/twpayne/chezmoi/blob/master/docs/INSTALL.md
+
+Source: https://github.com/twpayne/chezmoi/blob/master/docs/INSTALL.md
 
 Run in terminal:
 ```sh
 curl -s https://raw.githubusercontent.com/skonop/scripts/main/init-ux.sh | sh
 ```
 
-## init-win.sh (wip)
+## init-win.ps1 (wip)
 
-Initiates public part of init script on `windows`
-source: https://github.com/twpayne/chezmoi/blob/master/docs/INSTALL.md
+Initiates public part of init script on `windows`.
+
+Source: https://github.com/twpayne/chezmoi/blob/master/docs/INSTALL.md
 
 Run in Powershell:
 ```powershell
